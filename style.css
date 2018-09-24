@@ -1,0 +1,122 @@
+/* removing unnecessary space*/
+body{
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    padding: 0;
+    margin-top: 15px;
+    background-color: white;
+}
+#main{
+    padding:0;
+    box-shadow: 0px 6px 18px 0px #000000;
+}
+/*styling for header element*/
+header{
+    color: #fff;
+    background-color:rgb(21, 109, 109);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.name-text{
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    padding-left: 10%;
+    }
+.desc-text{
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    padding-left: 10%;
+}
+/*to make the two colum equal height*/
+.row-flex{
+    display: flex;
+  flex-wrap: wrap;
+}
+.col-md-4{
+    background-color: rgb(41, 37, 37);
+    padding: 20px 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;   
+}
+.row{
+    margin: 0;
+    padding:0;   
+}
+img{
+    margin-top: 15px;
+    border:3px solid rgb(21, 109, 109);
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    color: #fff;
+    background-color:rgb(21, 109, 109); 
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+    letter-spacing:1px;
+}
+p{
+    color:  rgb(31, 30, 30);;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+p.left{
+    color: rgb(124, 121, 121);
+    font-size: 11px;
+    letter-spacing: 1px; 
+}
+.page-header{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid rgb(61, 60, 60);   
+}
+h5{
+    color: rgb(21, 109, 109);
+}
+
+.try{
+    background-color:rgb(236, 236, 233);
+    margin-top: 10px; 
+    border-radius: 5px; 
+    
+    padding:0 10px 10px 20px; 
+}
+hr{
+    background-color: rgb(104, 100, 100);
+    border:1px solid rgb(104, 100, 100);
+}
+.title-right{
+    margin-top: 20px;
+    color: rgb(21, 109, 109);
+    padding-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.col-md-8{
+    padding:10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(22, 21, 21);
+    font-weight: 800;
+    margin-top: 15px;
+}
+/* list styling*/
+ul li{
+    color:  rgb(31, 30, 30);
+    font-size: 11px;
+    letter-spacing: 1px;  
+}
+ul{
+    margin:13px;
+    padding: 0;
+}
